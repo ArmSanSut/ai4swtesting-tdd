@@ -4,8 +4,8 @@
   "private": true,
   "description": "An exercise for using generative AI to aid test-driven development (TDD) with Jest.",
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "test:watch": "node ./node_modules/jest/bin/jest.js --watch"
   },
   "engines": {
     "node": ">=18"
